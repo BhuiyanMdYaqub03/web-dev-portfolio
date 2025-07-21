@@ -12,6 +12,10 @@
 
 
 /* shared style */
+
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -96,6 +100,32 @@ nav> ul>li{
     width: 580px;
 }
 
+/* main styles */
+
+.main-content{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about styles */
+
+.about{
+    text-align: center;
+    padding: 130px 150px;
+    border: 1px solid;
+    margin-top: 130px;
+    border-radius: 10px;;
+}
+
+.section-title{
+    font-weight:bold;
+    font-size: 35px;
+    color:#181818;
+}
+
+.section-description{
+    font-size:18px;
+    color:#757575;
+}
 
 
 
