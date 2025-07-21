@@ -15,6 +15,7 @@
 
 .secondary-bg{
     background-color: #FFF8F3;
+    text-align: center;
 }
 .text-primary{
     color: #FD6E0A;
@@ -30,6 +31,7 @@
     color:#757575;
 }
 .btn{
+    text-align: center;
     background-color:#FD6E0A;
     color:white;
     font-weight: bold;
@@ -37,8 +39,22 @@
     padding: 18px 35px;
     border:none;
     border-radius: 5px;
+    
+    cursor: pointer;
+    
 }
 
+.section-title{
+    font-weight:bold;
+    font-size: 35px;
+    color:#050505;
+   
+}
+.section-description{
+    font-size:18px;
+    color:#757575;
+    
+}
 /* nav style */
 nav{
     display: flex;
@@ -111,31 +127,124 @@ nav> ul>li{
 .about{
     text-align: center;
     padding: 130px 150px;
-    border: 1px solid;
+   
     margin-top: 130px;
     border-radius: 10px;;
 }
 
-.section-title{
-    font-weight:bold;
-    font-size: 35px;
-    color:#181818;
+.tersery-bg{
+    background-color: #FFFFFF;
+     border: 1px solid;
 }
 
-.section-description{
-    font-size:18px;
+
+
+
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    font-weight:400;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 1px;
+}
+.item-description{
+    font-weight: bold;
+    font-size: 20px;
+    color:#474747;
+   
+}
+
+/* section-skill styles */
+
+.description{
+    text-align: center;
+}
+
+/* card-box */
+
+.card-boxes{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.card-box{
+    max-width: 260px;
+
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 20;
+    color: #181818;
+}
+
+/* summary section */
+
+.summary{
+    margin:110px auto;
+}
+.resume-sum{
+    
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+}
+
+.sum-heading{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.degree-heading{
+    font-weight: bold;
+    font-size: 25;
+    color: #474747;
+    margin-bottom: 0;
+
+}
+.degree-description{
+    font-weight: 600;
+    font-size: 20px;
     color:#757575;
+    margin-top: 5px;
 }
 
+.degree{
+    margin-bottom: 80px;
+}
 
+.download-cv{
+    text-align: center;
+}
 
+/* conclusion */
 
+.conclusion{
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 200px;
+    gap: 110px
+}
 
+.section-conclusion{
+    width: 50%;
+}
 
-
-
-
-
+.text{
+    border: none;
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+}
 
 
 
